@@ -1,0 +1,225 @@
+.aboutSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  /* margin: 2rem; */
+  /* border-radius: 10px;
+   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);  */
+   
+
+}
+
+.aboutText {
+  flex: 1;
+  color: #333;
+  font-size: 1.2rem;
+  line-height: 1.5;
+
+  font-family: "Times New Roman", Times, serif;
+  /* border-right: 2px solid #ddd; */
+  /* width: 80%; */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  /* padding: 4.5rem; */
+  margin: 1rem;
+  padding: 2rem;
+
+}
+.decorative-heading {
+  text-align: center;
+  font-style: italic;
+  font-size: 3rem;
+  font-family: 'Brush Script MT', cursive;
+  position: relative; /* Required for absolute positioning of pseudo-elements */
+  margin: 2rem 0; /* Add some space above and below the heading */
+  color: #2f2963; /* Text color */
+}
+
+.decorative-heading::before,
+.decorative-heading::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 35%;
+  height: 1px; /* Line thickness */
+  background: #2f2963; /* Line color */
+  transform: translateY(-50%);
+ 
+}
+
+.decorative-heading::before {
+  left: 0;
+  /* Add additional styling for the left line */
+}
+
+.decorative-heading::after {
+  right: 0;
+  /* Add additional styling for the right line */
+}
+
+
+.aboutImage {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* width: 20%; */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 2rem;
+ 
+}
+
+.Card {
+  width: 12rem;
+  height: 12rem;
+  /* margin-top: 1.5rem;
+  margin-bottom: 1.5rem; */
+  margin: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: rgba(30, 2, 107, 0.432) 0px 19px 38px, rgba(210, 245, 15, 0.22) 0px 15px 12px;   
+  transition: all 0.3s ease-in-out;
+  /* margin-left: 3rem;
+  margin-right: 3rem; */
+}
+
+.cardImage {
+  width: 100%;
+  height: 8rem;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+
+}
+
+.Card:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(61, 19, 245, 0.3) 0px 25px 50px, rgba(65, 112, 240, 0.22) 0px 20px 30px;
+
+}
+
+.cardText {
+  line-height: 0.1rem;
+  padding: 5px;
+  font-weight: 300;
+  border-top: #2f2963;
+  
+}
+.view-more-button {
+  background-color: transparent; /* Initial background color */
+  color: #2f2963; /* Text color */
+  border: 5px solid #2f2963; /* Border color */
+  /* padding: 10px 20px; */
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s; /* Transition for smooth change */
+  position: absolute; /* Position at the bottom */
+  /* bottom: 2px; 
+  left: 50%; 
+  transform: translateX(-50%);  */
+  margin-bottom: 2rem; 
+  
+ 
+}
+
+.view-more-button:hover {
+  background-color: #2f2963; /* Hover background color */
+  color: #fff; /* Hover text color */
+}
+.newsAndUpdates {
+  flex: 1;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+.newsAndUpdates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  height: 100vh;
+}
+
+.about-container {
+  width: 80%;
+  max-width: 800px;
+  background: linear-gradient(to bottom, #f5f5f5, #e0e0e0); /* Gradient background */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #2f2963;
+  color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.close-icon {
+  cursor: pointer;
+}
+
+.about-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem 2rem;
+}
+
+.about-item {
+  margin-bottom: 1.5rem;
+}
+
+.about-item-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.about-item-details {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.about-item-details .material-icons {
+  margin-right: 0.5rem;
+}
+
+.about-item-date {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.about-footer {
+  padding: 1rem 2rem;
+  text-align: center;
+  background: #f5f5f5;
+  border-top: 1px solid #ddd;
+}
+
+.about-footer-button {
+  background: #2f2963;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.about-footer-button:hover {
+  background: #403492;
+}
