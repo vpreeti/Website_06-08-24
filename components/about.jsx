@@ -38,8 +38,8 @@ function About() {
                             <img src={cmImage} alt="CM Image" className="cardImage" />
                         </div>
                         <div className='cardText'>
-                            <h5 className='text-center'>Chief Minister</h5>
-                            <p className='text-center'>Nitish Kumar</p>
+                            <h5 className='designationName'>Chief Minister</h5>
+                            <p className='OfficeHolderName'>Nitish Kumar</p>
                         </div>
                     </div>
 
@@ -49,8 +49,8 @@ function About() {
                             <img src={EnergyMinister} alt="CM Image" className="cardImage" />
                         </div>
                         <div className='cardText'>
-                            <h5 className='text-center'>Energy Minister</h5>
-                            <p className='text-center'> Sri Bijendra Pd. Yadav</p>
+                            <h5 className='designationName'>Energy Minister</h5>
+                            <p className='OfficeHolderName'> Sri Bijendra Pd. Yadav</p>
                         </div>
                     </div>
 
@@ -62,8 +62,8 @@ function About() {
                             <img src={cmd} alt="CM Image" className="cardImage" />
                         </div>
                         <div className='cardText'>
-                            <h5 className='text-center'>Chairman-cum-MD</h5>
-                            <p className='text-center'> Kumar</p>
+                            <h5 className='designationName'>Chairman-cum-MD</h5>
+                            <p className='OfficeHolderName'> Mr. Sanjeev Hans</p>
                         </div>
                     </div>
 
@@ -73,66 +73,13 @@ function About() {
                             <img src={md} alt="CM Image" className="cardImage" />
                         </div>
                         <div className='cardText'>
-                            <h5 className='text-center'>Managing Director</h5>
-                            <p className='text-center'> Kumar</p>
+                            <h5 className='designationName'>Managing Director</h5>
+                            <p className='OfficeHolderName'> Dr. Nilesh Ramchandra Deore</p>
                         </div>
                     </div>
 
                 </div>
-                <div className='newsAndUpdates'>
-    <div className="about-container">
-        <div className="about-header">
-            <h1>News & Announcements</h1>
-            <div className="close-icon">
-                <span className="material-icons">close</span>
-            </div>
-        </div>
-        <div className="about-content">
-            <div className="about-item">
-                <div className="about-item-title">
-                    Zone Wise solar power margin at UPPTCL Substations with date 30.04.2024.
-                </div>
-                <div className="about-item-details">
-                    <span className="material-icons">insert_drive_file</span>
-                    File Size: 4 MB | Language: English
-                </div>
-                <div className="about-item-date">Date: 01/05/2024</div>
-            </div>
-            <div className="about-item">
-                <div className="about-item-title">
-                    Date & Venue of Public Hearing for UPPTCL Petition for ARR/Tariff of FY 2024-25, ARR for FY 2023-24 & True-UP for FY 2022-23
-                </div>
-                <div className="about-item-details">
-                    <span className="material-icons">insert_drive_file</span>
-                    File Size: 1 MB | Language: English
-                </div>
-                <div className="about-item-date">Date: 03/07/2024</div>
-            </div>
-            <div className="about-item">
-                <div className="about-item-title">
-                    REGARDING ZONEWISE AVAILABLE CLUSTER CAPACITY SOLAR POWER MARGIN AT UPPTCL SUBSTATIONS
-                </div>
-                <div className="about-item-details">
-                    <span className="material-icons">insert_drive_file</span>
-                    File Size: 3 MB | Language: English
-                </div>
-                <div className="about-item-date">Date: 10/06/2024</div>
-            </div>
-            <div className="about-item">
-                <div className="about-item-title">
-                    List of Winners of Environment Day Crossword Quiz-2024
-                </div>
-                <div className="about-item-details">
-                    <span className="material-icons">insert_drive_file</span>
-                    File Size: 1 MB | Language: Hindi
-                </div>
-            </div>
-        </div>
-        <div className="about-footer">
-            <button className="about-footer-button">View All</button>
-        </div>
-    </div>
-</div>
+                
 
 
             </div>
